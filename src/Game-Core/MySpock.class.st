@@ -14,7 +14,17 @@ MySpock >> playAgainstLizzard [
 ]
 
 { #category : 'as yet unclassified' }
+MySpock >> playAgainstSpock [
+^#draw
+]
+
+{ #category : 'as yet unclassified' }
 MySpock >> playAgainstStone [ 
 
 ^#myspock
+]
+
+{ #category : 'as yet unclassified' }
+MySpock >> vs: anElement [
+^anElement playAgainstSpock
 ]

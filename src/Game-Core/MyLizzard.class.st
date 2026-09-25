@@ -15,6 +15,11 @@ MyLizzard >> playAgainstLizzard [
 ]
 
 { #category : 'as yet unclassified' }
+MyLizzard >> playAgainstSpock [ 
+^#mylizzard  
+]
+
+{ #category : 'as yet unclassified' }
 MyLizzard >> playAgainstStone [ 
 
 ^#mystone
