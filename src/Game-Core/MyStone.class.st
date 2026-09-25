@@ -15,6 +15,11 @@ MyStone >> playAgainstLizzard [
 ]
 
 { #category : 'as yet unclassified' }
+MyStone >> playAgainstPaper [
+^#mypaper
+]
+
+{ #category : 'as yet unclassified' }
 MyStone >> playAgainstSpock [ 
 ^#myspock 
 ]

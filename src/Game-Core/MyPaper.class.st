@@ -16,6 +16,12 @@ MyPaper >> playAgainstLizzard [
 ]
 
 { #category : 'as yet unclassified' }
+MyPaper >> playAgainstPaper [
+
+^#draw
+]
+
+{ #category : 'as yet unclassified' }
 MyPaper >> playAgainstSpock [ 
 ^#mypaper
 ]
@@ -24,4 +30,9 @@ MyPaper >> playAgainstSpock [
 MyPaper >> playAgainstStone [
 
 ^#mypaper 
+]
+
+{ #category : 'as yet unclassified' }
+MyPaper >> vs: anElement [
+^ anElement playAgainstPaper 
 ]

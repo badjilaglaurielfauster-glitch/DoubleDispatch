@@ -14,6 +14,12 @@ MySpock >> playAgainstLizzard [
 ]
 
 { #category : 'as yet unclassified' }
+MySpock >> playAgainstPaper [ 
+
+^#mypaper
+]
+
+{ #category : 'as yet unclassified' }
 MySpock >> playAgainstSpock [
 ^#draw
 ]
