@@ -10,3 +10,9 @@ MySpockTest >> testSpockDraw [
 
 self assert: (MySpock new vs: MySpock new) equals: #draw 
 ]
+
+{ #category : 'tests' }
+MySpockTest >> testSpockWinsStone [
+
+self assert: (MySpock new vs: MyStone new ) equals: #mystone
+]
