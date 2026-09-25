@@ -20,6 +20,12 @@ MyLizzard >> playAgainstPaper [
 ]
 
 { #category : 'as yet unclassified' }
+MyLizzard >> playAgainstScissors [ 
+
+^#myscissors 
+]
+
+{ #category : 'as yet unclassified' }
 MyLizzard >> playAgainstSpock [ 
 ^#mylizzard  
 ]

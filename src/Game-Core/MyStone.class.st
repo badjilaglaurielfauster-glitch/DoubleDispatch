@@ -20,6 +20,11 @@ MyStone >> playAgainstPaper [
 ]
 
 { #category : 'as yet unclassified' }
+MyStone >> playAgainstScissors [ 
+^#mystone 
+]
+
+{ #category : 'as yet unclassified' }
 MyStone >> playAgainstSpock [ 
 ^#myspock 
 ]

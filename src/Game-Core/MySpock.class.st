@@ -20,6 +20,11 @@ MySpock >> playAgainstPaper [
 ]
 
 { #category : 'as yet unclassified' }
+MySpock >> playAgainstScissors [ 
+^#myspock  
+]
+
+{ #category : 'as yet unclassified' }
 MySpock >> playAgainstSpock [
 ^#draw
 ]

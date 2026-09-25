@@ -22,6 +22,11 @@ MyPaper >> playAgainstPaper [
 ]
 
 { #category : 'as yet unclassified' }
+MyPaper >> playAgainstScissors [ 
+^#myscissors 
+]
+
+{ #category : 'as yet unclassified' }
 MyPaper >> playAgainstSpock [ 
 ^#mypaper
 ]
