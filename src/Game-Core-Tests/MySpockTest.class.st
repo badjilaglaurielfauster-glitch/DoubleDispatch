@@ -32,5 +32,5 @@ self assert: (MySpock new vs: MyScissors new ) equals: #myspock
 { #category : 'tests' }
 MySpockTest >> testSpockWinsStone [
 
-self assert: (MySpock new vs: MyStone new ) equals: #mystone
+self assert: (MySpock new vs: MyStone new ) equals: #myspock
 ]
